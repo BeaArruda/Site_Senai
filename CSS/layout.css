@@ -1,1 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
 
+  .principal {
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .topo{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-content h1 {
+    font-size: 20px;
+  }
+
+  .logo {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex; 
+    gap: 20px;
+  }
+
+  .contentform{
+  background-color: white;
+   background-image: url('../Imagens/Futuro.webp');
+   background-position: right;
+   background-size: 500px 350px;
+   background-repeat: no-repeat;
+   width: 1000px;
+   margin-left: 445px;
+   margin-top: 2px;
+   margin-bottom: 35px; 
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.content {
+  background-color: white;
+  width: 1000px;
+  margin-left: 445px;
+  margin-top: 2px;
+  margin-bottom: 35px; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+  .content h2 {
+    color: #003a70;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .rodape{
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+  }
+
+  /* Formação de âncora*/
+
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #7d7d7d;
+  }
+
+  .formulario{
+    width: 300px;
+    height: 400px;
+    background: #004080;
+    margin-left: 200px;   
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  .formataform{
+    border-radius: 5px;
+    border-style: none;
+    background: white;
+    height: 20px;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  .formatatextarea{
+    border-radius: 5px;
+    border-style: none;
+    background: white;
+    height: 80px;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  button{
+    width: 90%;
+    background: #ffffff;
+    color: #004080;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 16px;
+    margin-top: 15px;
+  }
